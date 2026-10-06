@@ -1,0 +1,57 @@
+{
+  "model_type": "GradientBoostingClassifier",
+  "parameters": {
+    "subsample": 0.9,
+    "n_estimators": 200,
+    "min_samples_split": 5,
+    "min_samples_leaf": 5,
+    "max_features": null,
+    "max_depth": 5,
+    "learning_rate": 0.2
+  },
+  "feature_names": [
+    "UsingIP",
+    "LongURL",
+    "ShortURL",
+    "Symbol@",
+    "Redirecting//",
+    "PrefixSuffix-",
+    "SubDomains",
+    "HTTPS",
+    "DomainRegLen",
+    "Favicon",
+    "NonStdPort",
+    "HTTPSDomainURL",
+    "RequestURL",
+    "AnchorURL",
+    "LinksInScriptTags",
+    "ServerFormHandler",
+    "InfoEmail",
+    "AbnormalURL",
+    "WebsiteForwarding",
+    "StatusBarCust",
+    "DisableRightClick",
+    "UsingPopupWindow",
+    "IframeRedirection",
+    "AgeofDomain",
+    "DNSRecording",
+    "WebsiteTraffic",
+    "PageRank",
+    "GoogleIndex",
+    "LinksPointingToPage",
+    "StatsReport"
+  ],
+  "target_mapping": {
+    "1": 0,
+    "-1": 1
+  },
+  "development_samples": 8843,
+  "test_samples": 2211,
+  "random_seed": 42,
+  "environment": {
+    "python": "3.13.5 (tags/v3.13.5:6cb20a2, Jun 11 2025, 16:15:46) [MSC v.1943 64 bit (AMD64)]",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "scikit_learn": "1.8.0"
+  },
+  "created_at_utc": "2026-10-06T03:08:08.045582Z"
+}

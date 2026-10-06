@@ -1,0 +1,203 @@
+{
+  "total_records": 11054,
+  "identifier_columns_flagged": [
+    "GoogleIndex"
+  ],
+  "exact_full_duplicates": 5205,
+  "duplicate_feature_vectors": 5269,
+  "conflicting_duplicate_feature_vectors": 64,
+  "suspicious_predictors_count": 0,
+  "suspicious_predictors": [],
+  "target_derived_name_flags": [],
+  "split_contamination": {
+    "evaluated": true,
+    "train_samples": 8843,
+    "test_samples": 2211,
+    "index_intersection": 0,
+    "exact_row_overlap": null,
+    "feature_vector_overlap": 1114,
+    "conflicting_cross_split_vectors": null
+  },
+  "univariate_associations": [
+    {
+      "feature": "HTTPS",
+      "pearson_r": -0.7147,
+      "univariate_auc": 0.8771,
+      "flagged_suspicious": false
+    },
+    {
+      "feature": "AnchorURL",
+      "pearson_r": -0.6929,
+      "univariate_auc": 0.8758,
+      "flagged_suspicious": false
+    },
+    {
+      "feature": "PrefixSuffix-",
+      "pearson_r": -0.3486,
+      "univariate_auc": 0.619,
+      "flagged_suspicious": false
+    },
+    {
+      "feature": "WebsiteTraffic",
+      "pearson_r": -0.346,
+      "univariate_auc": 0.6929,
+      "flagged_suspicious": false
+    },
+    {
+      "feature": "SubDomains",
+      "pearson_r": -0.2982,
+      "univariate_auc": 0.6667,
+      "flagged_suspicious": false
+    },
+    {
+      "feature": "RequestURL",
+      "pearson_r": -0.2535,
+      "univariate_auc": 0.6253,
+      "flagged_suspicious": false
+    },
+    {
+      "feature": "LinksInScriptTags",
+      "pearson_r": -0.2484,
+      "univariate_auc": 0.6364,
+      "flagged_suspicious": false
+    },
+    {
+      "feature": "DomainRegLen",
+      "pearson_r": 0.2259,
+      "univariate_auc": 0.607,
+      "flagged_suspicious": false
+    },
+    {
+      "feature": "ServerFormHandler",
+      "pearson_r": -0.2214,
+      "univariate_auc": 0.5945,
+      "flagged_suspicious": false
+    },
+    {
+      "feature": "GoogleIndex",
+      "pearson_r": -0.129,
+      "univariate_auc": 0.545,
+      "flagged_suspicious": false
+    },
+    {
+      "feature": "AgeofDomain",
+      "pearson_r": -0.1214,
+      "univariate_auc": 0.561,
+      "flagged_suspicious": false
+    },
+    {
+      "feature": "PageRank",
+      "pearson_r": -0.1046,
+      "univariate_auc": 0.5461,
+      "flagged_suspicious": false
+    },
+    {
+      "feature": "UsingIP",
+      "pearson_r": -0.094,
+      "univariate_auc": 0.5449,
+      "flagged_suspicious": false
+    },
+    {
+      "feature": "StatsReport",
+      "pearson_r": -0.0796,
+      "univariate_auc": 0.5278,
+      "flagged_suspicious": false
+    },
+    {
+      "feature": "DNSRecording",
+      "pearson_r": -0.0756,
+      "univariate_auc": 0.5352,
+      "flagged_suspicious": false
+    },
+    {
+      "feature": "ShortURL",
+      "pearson_r": 0.0679,
+      "univariate_auc": 0.523,
+      "flagged_suspicious": false
+    },
+    {
+      "feature": "AbnormalURL",
+      "pearson_r": 0.0608,
+      "univariate_auc": 0.5217,
+      "flagged_suspicious": false
+    },
+    {
+      "feature": "LongURL",
+      "pearson_r": -0.0577,
+      "univariate_auc": 0.5212,
+      "flagged_suspicious": false
+    },
+    {
+      "feature": "Symbol@",
+      "pearson_r": -0.053,
+      "univariate_auc": 0.519,
+      "flagged_suspicious": false
+    },
+    {
+      "feature": "StatusBarCust",
+      "pearson_r": -0.0419,
+      "univariate_auc": 0.5136,
+      "flagged_suspicious": false
+    },
+    {
+      "feature": "HTTPSDomainURL",
+      "pearson_r": 0.0401,
+      "univariate_auc": 0.5149,
+      "flagged_suspicious": false
+    },
+    {
+      "feature": "Redirecting//",
+      "pearson_r": 0.0389,
+      "univariate_auc": 0.5131,
+      "flagged_suspicious": false
+    },
+    {
+      "feature": "NonStdPort",
+      "pearson_r": -0.0365,
+      "univariate_auc": 0.5126,
+      "flagged_suspicious": false
+    },
+    {
+      "feature": "LinksPointingToPage",
+      "pearson_r": -0.0327,
+      "univariate_auc": 0.521,
+      "flagged_suspicious": false
+    },
+    {
+      "feature": "WebsiteForwarding",
+      "pearson_r": 0.0202,
+      "univariate_auc": 0.5065,
+      "flagged_suspicious": false
+    },
+    {
+      "feature": "InfoEmail",
+      "pearson_r": -0.018,
+      "univariate_auc": 0.507,
+      "flagged_suspicious": false
+    },
+    {
+      "feature": "DisableRightClick",
+      "pearson_r": -0.0127,
+      "univariate_auc": 0.5026,
+      "flagged_suspicious": false
+    },
+    {
+      "feature": "IframeRedirection",
+      "pearson_r": 0.0034,
+      "univariate_auc": 0.501,
+      "flagged_suspicious": false
+    },
+    {
+      "feature": "Favicon",
+      "pearson_r": 0.0002,
+      "univariate_auc": 0.5001,
+      "flagged_suspicious": false
+    },
+    {
+      "feature": "UsingPopupWindow",
+      "pearson_r": -0.0001,
+      "univariate_auc": 0.5001,
+      "flagged_suspicious": false
+    }
+  ]
+}

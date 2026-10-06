@@ -1,0 +1,24 @@
+{
+  "best_parameters": {
+    "subsample": 0.9,
+    "n_estimators": 200,
+    "min_samples_split": 5,
+    "min_samples_leaf": 5,
+    "max_features": null,
+    "max_depth": 5,
+    "learning_rate": 0.2
+  },
+  "refit_metric": "f1",
+  "best_cv_f1": 0.9684869355744793,
+  "best_cv_f1_std": 0.0027116486521837273,
+  "best_cv_accuracy": 0.9722944680763987,
+  "best_cv_accuracy_std": 0.0023715722483112264,
+  "best_cv_precision": 0.9761889413186143,
+  "best_cv_precision_std": 0.005017710761706647,
+  "best_cv_recall": 0.96094723329945,
+  "best_cv_recall_std": 0.005524532686648349,
+  "best_cv_roc_auc": 0.9963493374964394,
+  "best_cv_roc_auc_std": 0.0008235776053118189,
+  "total_configurations_tested": 50,
+  "random_state": 42
+}

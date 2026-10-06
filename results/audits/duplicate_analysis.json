@@ -1,0 +1,12 @@
+{
+  "dataset_rows": 11054,
+  "dataset_columns": 32,
+  "exact_duplicates_with_identifiers": 0,
+  "identifiers_present": [
+    "Index"
+  ],
+  "duplicate_feature_vectors_excluding_identifiers": 5269,
+  "unique_feature_vectors_excluding_identifiers": 5785,
+  "conflicting_duplicate_feature_vectors": 64,
+  "duplicate_handling_recommendation": "Deduplication must be evaluated methodologically. Conflicting vectors (same features, different labels) represent inherent labeling ambiguity/noise in the coarse-grained 30-feature discrete space."
+}

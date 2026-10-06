@@ -1,0 +1,25 @@
+{
+  "random_state": 42,
+  "test_size": 0.2,
+  "cv_folds": 5,
+  "total_samples": 11054,
+  "development_samples": 8843,
+  "test_samples": 2211,
+  "development_class_counts": {
+    "0": 4925,
+    "1": 3918
+  },
+  "test_class_counts": {
+    "0": 1232,
+    "1": 979
+  },
+  "development_class_proportions": {
+    "0": 0.5569,
+    "1": 0.4431
+  },
+  "test_class_proportions": {
+    "0": 0.5572,
+    "1": 0.4428
+  },
+  "stratification_verified": true
+}
